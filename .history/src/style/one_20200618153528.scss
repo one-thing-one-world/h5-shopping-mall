@@ -1,0 +1,15 @@
+
+.van-cell__value{
+
+    display: flex;
+    
+}
+.van-field__error-message{
+    
+    position: relative;
+    white-space: nowrap;
+    left: -80px;
+}
+.van-field__control{
+    width: 50px !important;
+}

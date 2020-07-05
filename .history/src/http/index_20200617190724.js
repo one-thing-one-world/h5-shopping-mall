@@ -1,0 +1,12 @@
+import axios from 'axios'
+const service = axios.create({
+    baseURL: '/api',
+    timeout:10000
+})
+//响应拦截
+service.interceptors.responce.use(res=>{
+    return res.data
+})
+
+//默认导出
+export default service
