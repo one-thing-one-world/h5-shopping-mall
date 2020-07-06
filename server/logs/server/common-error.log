@@ -2085,3 +2085,98 @@ name: "ClusterClientNoResponseError"
 pid: 6720
 hostname: WIN-MUKF6GAASCO
 
+2020-07-05 19:26:52,416 ERROR 2080 [-/127.0.0.1/-/20ms POST /v1/addShop] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.addShop (C:\Users\Administrator\Desktop\demo\server\app\controller\api\operatingGoods.js:61:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\demo\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 2080
+hostname: WIN-MUKF6GAASCO
+
+2020-07-05 20:14:43,490 ERROR 2080 [-/undefined/-/24ms POST /v1/addShop] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.addShop (C:\Users\Administrator\Desktop\demo\server\app\controller\api\operatingGoods.js:61:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\demo\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+headerSent: true
+pid: 2080
+hostname: WIN-MUKF6GAASCO
+
+2020-07-05 20:41:15,391 ERROR 2080 [-/undefined/-/28ms POST /v1/addShop] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.addShop (C:\Users\Administrator\Desktop\demo\server\app\controller\api\operatingGoods.js:61:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\demo\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+headerSent: true
+pid: 2080
+hostname: WIN-MUKF6GAASCO
+
+2020-07-05 21:05:23,003 ERROR 2080 [-/127.0.0.1/-/14ms POST /v1/addShop] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.addShop (C:\Users\Administrator\Desktop\demo\server\app\controller\api\operatingGoods.js:61:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\demo\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 2080
+hostname: WIN-MUKF6GAASCO
+
+2020-07-05 21:05:24,494 ERROR 2080 [-/127.0.0.1/-/4ms POST /v1/addShop] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.addShop (C:\Users\Administrator\Desktop\demo\server\app\controller\api\operatingGoods.js:61:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\demo\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\demo\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\demo\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 2080
+hostname: WIN-MUKF6GAASCO
+
